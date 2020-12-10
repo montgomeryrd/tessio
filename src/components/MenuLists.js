@@ -2,6 +2,9 @@ import { useState } from 'react';
 import { Menu } from 'semantic-ui-react';
 
 import HappyHour from './menu/HappyHour';
+import Food from './menu/Food';
+import Drinks from './menu/Drinks';
+import Liquors from './menu/Liquors';
 
 const MenuLists = () => {
     const [activeItem, setActiveItem] = useState('happy hour');
@@ -38,9 +41,9 @@ const MenuLists = () => {
                 </Menu.Menu>
             </Menu>
             { activeItem === 'happy hour' ? <HappyHour /> : '' }
-            {/* { activeItem === 'happy hour' ? <HappyHour /> : '' }
-            { activeItem === 'happy hour' ? <HappyHour /> : '' }
-            { activeItem === 'happy hour' ? <HappyHour /> : '' } */}
+            { activeItem === 'food' ? <Food /> : '' }
+            { activeItem === 'beverages' ? <Drinks /> : '' }
+            { activeItem === 'whiskey' ? <Liquors /> : '' }
         </div>
     )
 }
