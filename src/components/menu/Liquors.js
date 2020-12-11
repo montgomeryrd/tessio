@@ -90,6 +90,9 @@ const Liquors = () => {
                 <p className="menu-item">
                     {item.item} ${item.price}
                 </p>
+                <p className="menu-description">
+                    {item.description}
+                </p>
             </li>
         )
     });
@@ -98,21 +101,21 @@ const Liquors = () => {
         <Segment>
             <Grid columns={3} relaxed='very'>
                 <Grid.Column>
-                    <h3 className="menu-head">IRISH</h3>
+                    <h3 className="menu-head">BOURBON</h3>
                     <ul>
-                        {irishAlc}
-                    </ul>
-                </Grid.Column>
-                <Grid.Column>
-                    <h3 className="menu-head">RYE</h3>
-                    <ul>
-                        {ryeAlc}
+                        {bourbonAlc}
                     </ul>
                 </Grid.Column>
                 <Grid.Column>
                     <h3 className="menu-head">SINGLE MALT SCOTCH</h3>
                     <ul>
                         {maltAlc}
+                    </ul>
+                </Grid.Column>
+                <Grid.Column>
+                    <h3 className="menu-head">WHISKEY FLIGHTS</h3>
+                    <ul>
+                        {flightsAlc}
                     </ul>
                 </Grid.Column>
             </Grid>
@@ -124,9 +127,9 @@ const Liquors = () => {
                     </ul>
                 </Grid.Column>
                 <Grid.Column>
-                    <h3 className="menu-head">BOURBON</h3>
+                    <h3 className="menu-head">IRISH</h3>
                     <ul>
-                        {bourbonAlc}
+                        {irishAlc}
                     </ul>
                 </Grid.Column>
                 <Grid.Column>
@@ -150,9 +153,9 @@ const Liquors = () => {
                     </ul>
                 </Grid.Column>
                 <Grid.Column>
-                    <h3 className="menu-head">WHISKEY FLIGHTS</h3>
+                    <h3 className="menu-head">RYE</h3>
                     <ul>
-                        {flightsAlc}
+                        {ryeAlc}
                     </ul>
                 </Grid.Column>
             </Grid>

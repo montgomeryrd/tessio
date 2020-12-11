@@ -1,5 +1,3 @@
-import { Divider, Grid, Segment } from 'semantic-ui-react';
-
 import { appetizers, tapBeers, houseWines, wells } from './data';
 
 const HappyHour = () => {
@@ -57,26 +55,27 @@ const HappyHour = () => {
     });
 
     return (
-        <Segment>
-            <Grid columns={2} relaxed='very'>
-                <Grid.Column>
-                    <h3 className="menu-head">APPETIZERS</h3>
-                    <ul>
-                        {apps}
-                    </ul>
-                </Grid.Column>
-                <Grid.Column>
-                    <h3 className="menu-head">BEVERAGES</h3>
-                    <ul>
-                        {beers}
-                        {wines}
-                        {well}
-                    </ul>
-                </Grid.Column>
-            </Grid>
-
-            <Divider vertical>AND</Divider>
-        </Segment>
+        <div className="happy-hour-container">
+            <div className="happy-hour-div">
+                <h3 className="menu-head">APPETIZERS</h3>
+                <ul>
+                    {apps}
+                </ul>
+            </div>
+            <div className="divider">
+                <div className="vertical-line">
+                    <span>AND</span>
+                </div>
+            </div>
+            <div className="happy-hour-div">
+                <h3 className="menu-head">BEVERAGES</h3>
+                <ul>
+                    {beers}
+                    {wines}
+                    {well}
+                </ul>
+            </div>
+        </div>
     )
 }
 
