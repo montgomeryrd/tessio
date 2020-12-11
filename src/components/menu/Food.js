@@ -1,5 +1,3 @@
-import { Divider, Grid, Segment } from 'semantic-ui-react';
-
 import { starters, salads, pizzas, paninis } from './data';
 
 const Food = () => {
@@ -57,37 +55,46 @@ const Food = () => {
     });
 
     return (
-        <Segment>
-            <Grid columns={2} relaxed='very'>
-                <Grid.Column>
+        <div className="menu-lists">
+            <div className="half-page">
+                <div className="menu-list-div">
                     <h3 className="menu-head">STARTERS</h3>
                     <ul>
                         {starts}
                     </ul>
-                </Grid.Column>
-                <Grid.Column>
+                </div>
+                <div className="divider">
+                    <div className="vertical-line">
+                        <span>AND</span>
+                    </div>
+                </div>
+                <div className="menu-list-div">
                     <h3 className="menu-head">TESSIO SALADS</h3>
                     <ul>
                         {greens}
                     </ul>
-                </Grid.Column>
-            </Grid>
-            <Grid columns={2} relaxed='very'>
-                <Grid.Column>
+                </div>
+            </div>
+            <div className="half-page">
+                <div className="menu-list-div">
                     <h3 className="menu-head">10" PIZZAS</h3>
                     <ul>
                         {pies}
                     </ul>
-                </Grid.Column>
-                <Grid.Column>
+                </div>
+                <div className="divider">
+                    <div className="vertical-line">
+                        <span>AND</span>
+                    </div>
+                </div>
+                <div className="menu-list-div">
                     <h3 className="menu-head">TESSIO PANINIS</h3>
                     <ul>
                         {sammies}
                     </ul>
-                </Grid.Column>
-            </Grid>
-            <Divider vertical>AND</Divider>
-        </Segment>
+                </div>
+            </div>
+        </div>
     )
 }
 
