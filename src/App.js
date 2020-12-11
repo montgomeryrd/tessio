@@ -11,7 +11,7 @@ function App() {
 			imageText = {'tessio website'}
 			phone = {'360.286.2193'}
 			title = {'A message to our patrons and friends from Tessio'}
-			text = {`We appreciate you, whether you were getting to know us or simply enjoying our selections and service. During this time, it means a lot to us to be able to continue to provide the same level of quality and service you would expect while adhering to Washington State Covid Requirements. While we're currently unable to provide a dine-in experience, we have built a sheltered eating area just out front with two tables, each equipped with their own heater, beneathe strings of lights, partitioned with a divider where our servers can assist you. We also provide plenty of take-out options for food and alcohol. We're all in this together so please take care and be safe.`}
+			text = {`We appreciate you, whether you were getting to know us or simply enjoying our selections and service. During this time, it means a lot to us to be able to continue to provide the same level of quality and service you would expect while adhering to Washington State Covid Requirements. While we're currently unable to provide a dine-in experience, we have built a sheltered eating area just out front with two tables, each equipped with their own heater beneathe strings of lights, partitioned by a divider where our servers can assist you. We also provide plenty of take-out options for food and alcohol. We're all in this together so please take care and be safe.`}
 		/>
         <Section
 			name = {'pimg2'}
