@@ -948,83 +948,291 @@ export const bourbon = [
         price: "7"
     },
     {
-        item: "",
-        price: ""
+        item: "jack daniels single barrel",
+        price: "12"
     },
     {
-        item: "",
-        price: ""
+        item: "jefferson's very small batch",
+        price: "11"
     },
     {
-        item: "",
-        price: ""
+        item: "jim beam",
+        price: "6"
     },
     {
-        item: "",
-        price: ""
+        item: "jim beam single barrel",
+        price: "15"
     },
     {
-        item: "",
-        price: ""
+        item: "knob creek bourbon",
+        price: "15"
     },
     {
-        item: "",
-        price: ""
+        item: "larceny",
+        price: "10"
     },
     {
-        item: "",
-        price: ""
+        item: "maker's mark",
+        price: "9"
     },
     {
-        item: "",
-        price: ""
+        item: "maker's mark 46",
+        price: "12"
     },
     {
-        item: "",
-        price: ""
+        item: "maker's mark cask strength",
+        price: "19"
     },
     {
-        item: "",
-        price: ""
+        item: "old crow",
+        price: "6"
     },
     {
-        item: "",
-        price: ""
+        item: "old forrester 86 proof",
+        price: "6"
     },
     {
-        item: "",
-        price: ""
+        item: "old forrester 90 proof",
+        price: "10"
     },
     {
-        item: "",
-        price: ""
+        item: "old forrester 100 proof",
+        price: "11"
+    },
+    {
+        item: "oola smoked",
+        price: "15"
+    },
+    {
+        item: "oola waltsburg",
+        price: "12"
+    },
+    {
+        item: "wild turkey 101",
+        price: "7"
+    },
+    {
+        item: "woodford reserve double oak",
+        price: "1"
     }
 ];
 
 export const canadian = [
     {
-        item: "",
-        price: ""
+        item: "8 seconds",
+        price: "7"
     },
+    {
+        item: "8 seconds black",
+        price: "8"
+    },
+    {
+        item: "black velvet",
+        price: "6"
+    },
+    {
+        item: "collingwood",
+        price: "9"
+    },
+    {
+        item: "crown royal",
+        price: "8"
+    },
+    {
+        item: "crown royal xo",
+        price: "14"
+    },
+    {
+        item: "pendleton",
+        price: "9"
+    },
+    {
+        item: "pendleton 1910 rye",
+        price: "11"
+    },
+    {
+        item: "revel stoke",
+        price: "6"
+    }
 ];
 
 export const flavored = [
     {
-        item: "",
-        price: ""
+        item: "8 seconds honey cinnamon",
+        price: "7"
     },
+    {
+        item: "bird dog blackberry",
+        price: "6"
+    },
+    {
+        item: "bird dog peach",
+        price: "6"
+    },
+    {
+        item: "black velvet toasted caramel",
+        price: "5"
+    },
+    {
+        item: "celtic honey",
+        price: "8"
+    },
+    {
+        item: "crown apple",
+        price: "9"
+    },
+    {
+        item: "fireball",
+        price: "5"
+    },
+    {
+        item: "j seeds apple",
+        price: "6"
+    },
+    {
+        item: "jack daniels fire",
+        price: "6"
+    },
+    {
+        item: "jack daniels honey",
+        price: "6"
+    }
 ];
 
 export const misc = [
     {
-        item: "",
-        price: ""
+        item: "chuckanut muzzleflash",
+        price: "10"
     },
+    {
+        item: "dry fly washington wheat",
+        price: "11"
+    },
+    {
+        item: "jim beam jacob's ghost",
+        price: "8"
+    },
+    {
+        item: "kavalan",
+        price: "35"
+    },
+    {
+        item: "nikka coffey",
+        price: "23"
+    },
+    {
+        item: "rogue dead guy",
+        price: "12"
+    },
+    {
+        item: "seagram's 7",
+        price: "6"
+    },
+    {
+        item: "suntory",
+        price: "11"
+    },
+    {
+        item: "suntory hibiki",
+        price: "20"
+    },
+    {
+        item: "tatoosh",
+        price: "12"
+    },
+    {
+        item: "tin cup",
+        price: "8"
+    },
+    {
+        item: "whippersnapper",
+        price: "8"
+    },
+    {
+        item: "virginia black",
+        price: "11"
+    }
 ];
 
 export const flights = [
     {
-        item: "",
-        price: ""
+        item: "sweet tooth",
+        price: "12",
+        description: "bird dog blackberry, revel stoke pecan, 8 seconds honey cinnamon"
     },
+    {
+        item: "beekeeper",
+        price: "14",
+        description: "barenjagger, jack daniels tennessee honey, celtic honey"
+    },
+    {
+        item: "a crow, a pig, and a monkey",
+        price: "15",
+        description: "old crow, whistle pig 10yr, monkey shoulder"
+    },
+    {
+        item: "jack daniel's",
+        price: "16",
+        description: "jack daniel's #7, jack daniel's gentleman jack, jack daniel's single barrel"
+    },
+    {
+        item: "hockey night in america",
+        price: "21",
+        description: "crown royal xo, pendleton 1910 rye, collingwood"
+    },
+    {
+        item: "irishman",
+        price: "21",
+        description: "redbreast 12yr, jameson black, hell cat maggie"
+    },
+    {
+        item: "southern man",
+        price: "21",
+        description: "wild turkey 101, jim beam single barrel, maker's mark 46"
+    },
+    {
+        item: "tullamore d.e.w.",
+        price: "22",
+        description: "tullamore 6yr irish, tullamore 12yr single malt, tullamore 14yr special reserve"
+    },
+    {
+        item: "johnny, jack, and jim",
+        price: "24",
+        description: "johnny walker doubel black, jack daniels single barrel, jim beam single barrel"
+    },
+    {
+        item: "catcher in the rye",
+        price: "32",
+        description: "woodford reserve, woodinville rye, hudson manhattan"
+    },
+    {
+        item: "highland park",
+        price: "33",
+        description: "highland park 12yr, highland park 18yr, magnus"
+    },
+    {
+        item: "for peat's sake",
+        price: "35",
+        description: "ballechin, laphroig 10yr, ardberg"
+    },
+    {
+        item: "3 glens",
+        price: "35",
+        description: "glenfidich 18yr, glenlivet nadurra, glenmorangie"
+    },
+    {
+        item: "3 little pigs",
+        price: "45",
+        description: "whistle pig 10yr, whistle pig 12yr, whistle pig 15yr"
+    },
+    {
+        item: "johnny green, gold, and blue",
+        price: "60",
+        description: "johnny walker green, johnny walker gold, johnny walker blue"
+    },
+    {
+        item: "the gold standard",
+        price: "87",
+        description: "tullabardine 20yr, macallan rare cask, johnny walker blue"
+    }
 ];

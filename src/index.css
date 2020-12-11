@@ -73,30 +73,51 @@ html, body {
   background-color: transparent;
 }
 
-.tessio-menu {
-  font-size: 30px;
+li {
+  list-style-type: none;
 }
 
-.menu-head {
-  text-align: center;
-  font-size: 2em;
-  padding: 10px;
+/* Menu Pages */
+
+/* menu-nav */
+.menu-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  border-bottom: 1px solid #666;
+  padding-bottom: 10px;
+  margin-bottom: 40px;
+}
+
+.menu-nav li {
+  padding: 5px 40px;
+  font-size: 1.2em;
+  font-weight: 600;
+}
+/* ------- */
+/* Happy Hour */
+.happy-hour-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  border: .5px solid rgb(220, 220, 220);
+  background-color: white;
+  margin: auto;
+  max-width: 1000px;
+  border-radius: 1mm;
+}
+
+.happy-hour-div {
+  width: 100%;
+  padding: 20px;
 }
 
 .menu-item-container {
-  text-align: center;  
-  margin-right: 25px;
+  text-align: left;
 }
 
 .menu-item {
-  font-weight: 900;
-}
-
-ul {
-  max-width: 700px;
-  list-style-type: none;
-  margin: 0 auto;
-  font-size: 1.2em;
+  font-weight: 600;
 }
 
 .menu-description {
@@ -104,12 +125,37 @@ ul {
   padding-bottom: 20px;
 }
 
-@media(max-width: 600px) {
+/* menu divider */
+.divider span {
+  position: relative;
+  background-color: white;
+  color: black;
+  font-weight: 600;
+  padding: 5px;
+  margin: auto 0 auto -20px;
+}
+
+.vertical-line {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 0;
+  margin-left: 20px;
+  height: 100%;
+  border-left: 1px solid rgb(220, 220, 220);
+}
+/* ------------ */
+
+@media(max-width: 800px) {
   .pimg1, .pimg2, .pimg3 {
       background-attachment: scroll;
   }
 
   .border {
     font-size: 1rem;
+  }
+
+  .menu-nav li {
+    padding: 0 20px;
   }
 }
