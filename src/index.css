@@ -84,7 +84,8 @@ html, body {
 }
 
 .menu-item-container {
-  text-align: left;  
+  text-align: center;  
+  margin-right: 25px;
 }
 
 .menu-item {
@@ -106,5 +107,9 @@ ul {
 @media(max-width: 600px) {
   .pimg1, .pimg2, .pimg3 {
       background-attachment: scroll;
+  }
+
+  .border {
+    font-size: 1rem;
   }
 }

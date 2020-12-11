@@ -171,7 +171,7 @@ export const salads = [
     {
         item: "tessio chop chop",
         price: "15",
-        description: "ribbon cut butter lettuce, cherry tomatoes, honey ham, turkey breast, cubed mozzarella, thin sliced red onions, in-house chop chop dressing"
+        description: "ribbon cut butter lettuce, cherry tomatoes, honey ham, turkey breast, pepperoni, cubed mozzarella, thin sliced red onions, in-house chop chop dressing"
     }
 ];
 
@@ -404,136 +404,627 @@ export const beers = [
 export const wines = [
     {
         type: "white",
-        item: "",
-        price: "",
-        description: "Washington"
+        item: "coppola diamond chardonnay",
+        price: "8, $29",
+        description: "washington"
     },
     {
         type: "white",
-        item: "",
-        price: "",
-        description: "France"
+        item: "chiroulet côtes de gascogne",
+        price: "9, $32",
+        description: "france"
     },
     {
         type: "white",
-        item: "",
-        price: "",
-        description: "Italy"
+        item: "villa pozzi moscato",
+        price: "8, $29",
+        description: "italy"
     },
     {
         type: "white",
-        item: "",
-        price: "",
-        description: "Washington"
+        item: "barnard griffin sauvignon",
+        price: "9, $32",
+        description: "washington"
     },
     {
         type: "white",
-        item: "",
-        price: "",
-        description: "Washington"
+        item: "charles and charles riesling",
+        price: "7, $25",
+        description: "washington"
     },
     {
         type: "red",
-        item: "",
-        price: "",
-        description: "Washington"
+        item: "boomtown merlot",
+        price: "9, $31",
+        description: "washington"
     },
     {
         type: "red",
-        item: "",
-        price: "",
-        description: "Portugal"
+        item: "broadbent vinho verde rose",
+        price: "8, $29",
+        description: "portugal"
     },
     {
         type: "red",
-        item: "",
-        price: "",
-        description: "Washington"
+        item: "columbia crest red blend",
+        price: "9, $32",
+        description: "washington"
     },
     {
         type: "red",
-        item: "",
-        price: "",
-        description: "Washington"
+        item: "charles and charles cab/sirah blend",
+        price: "8,  $29",
+        description: "washington"
     },
     {
         type: "red",
-        item: "",
-        price: "",
-        description: "Oregon"
+        item: "del rio pinot noir",
+        price: "12, $39",
+        description: "oregon"
     },
     {
-        type: "house",
-        item: "",
-        price: "",
-        description: "Italy"
+        type: "house wine by the glass",
+        item: "zenato pinot grigio",
+        price: "8",
+        description: "italy"
     },
     {
-        type: "house",
-        item: "",
-        price: "",
-        description: "Italy"
+        type: "house wine by the glass",
+        item: "colosi rosso",
+        price: "8",
+        description: "italy"
     },
     {
         type: "wine flight",
-        item: "",
-        price: "",
-        description: "Choose any three of WHITE, RED, or HOUSE wines"
+        item: "create your own wine flight",
+        price: "14",
+        description: "choose any three of WHITE, RED, or HOUSE wines"
     },
     {
-        type: "Rogue Valley, Oregon",
-        item: "",
-        price: "",
+        type: "anchor valley by the bottle",
+        item: "pinot gris",
+        price: "29",
+        description: "rogue valley, oregon"
     },
     {
-        type: "Rogue Valley, Oregon",
-        item: "",
-        price: "",
+        type: "anchor valley by the bottle",
+        item: "pinot noir rose",
+        price: "29",
+        description: "rogue valley, oregon"
     },
     {
-        type: "Rogue Valley, Oregon",
-        item: "",
-        price: "",
+        type: "anchor valley by the bottle",
+        item: "pinot noir",
+        price: "34",
+        description: "rogue valley, oregon"
     },
     {
-        type: "Bubbles",
-        item: "",
-        price: "",
-        description: "Italy"
+        type: "bubbles",
+        item: "rotari brut",
+        price: "8, $29",
+        description: "italy"
     }
 ];
 
 export const irish = [
-
+    {
+        item: "bushmill's",
+        price: "8"
+    },
+    {
+        item: "bushmill's 10yr",
+        price: "14"
+    },
+    {
+        item: "hell cat maggie",
+        price: "8"
+    },
+    {
+        item: "jameson",
+        price: "9"
+    },
+    {
+        item: "jameson black",
+        price: "12"
+    },
+    {
+        item: "jameson cask mates",
+        price: "10"
+    },
+    {
+        item: "kilbeggan",
+        price: "10"
+    },
+    {
+        item: "kinahan's 10yr",
+        price: "16"
+    },
+    {
+        item: "powers",
+        price: "9"
+    },
+    {
+        item: "redbreast 12yr",
+        price: "16"
+    },
+    {
+        item: "redbreast 15yr",
+        price: "24"
+    },
+    {
+        item: "teeling",
+        price: "12"
+    },
+    {
+        item: "the irishman",
+        price: "15"
+    },
+    {
+        item: "the quiet man",
+        price: "13"
+    },
+    {
+        item: "tullamore dew",
+        price: "7"
+    },
+    {
+        item: "tullamore dew 12yr",
+        price: "11"
+    },
+    {
+        item: "tullamore dew 14yr",
+        price: "19"
+    }
 ];
 
 export const rye = [
-
+    {
+        item: "bulleit rye",
+        price: "9"
+    },
+    {
+        item: "high west double rye",
+        price: "10"
+    },
+    {
+        item: "high west prairie",
+        price: "10"
+    },
+    {
+        item: "high west rendezvous rye",
+        price: "17"
+    },
+    {
+        item: "hochstadter's slow & low",
+        price: "8"
+    },
+    {
+        item: "hudson manhattan rye",
+        price: "17"
+    },
+    {
+        item: "james oliver",
+        price: "8"
+    },
+    {
+        item: "john jacob",
+        price: "10"
+    },
+    {
+        item: "knob creek rye",
+        price: "14"
+    },
+    {
+        item: "mischief",
+        price: "11"
+    },
+    {
+        item: "old overholt",
+        price: "7"
+    },
+    {
+        item: "redemption",
+        price: "9"
+    },
+    {
+        item: "rittenhouse",
+        price: "6"
+    },
+    {
+        item: "templeton",
+        price: "12"
+    },
+    {
+        item: "whistle pig 10yr",
+        price: "12"
+    },
+    {
+        item: "whistle pig 12yr",
+        price: "14"
+    }
 ];
 
 export const malt = [
-
+    {
+        item: "aberlour ",
+        price: "9"
+    },
+    {
+        item: "adberg",
+        price: "16"
+    },
+    {
+        item: "auchentoshan ",
+        price: "13"
+    },
+    {
+        item: "ballechin",
+        price: "29"
+    },
+    {
+        item: "balvenie 12yr",
+        price: "15"
+    },
+    {
+        item: "balvenie 17yr",
+        price: "31"
+    },
+    {
+        item: "balvenie carribean cask 14yr",
+        price: "20"
+    },
+    {
+        item: "bowmore",
+        price: "22"
+    },
+    {
+        item: "bruichladdich ",
+        price: "16"
+    },
+    {
+        item: "cragganmore ",
+        price: "22"
+    },
+    {
+        item: "dalwhinnie",
+        price: "22"
+    },
+    {
+        item: "glenfiddich 12yr",
+        price: "11"
+    },
+    {
+        item: "glenfiddich 14yr",
+        price: "15"
+    },
+    {
+        item: "glenfiddich 15yr",
+        price: "17"
+    },
+    {
+        item: "glenfiddich 18yr",
+        price: "26"
+    },
+    {
+        item: "glenfiddich IPA casks",
+        price: "9"
+    },
+    {
+        item: "glenkinchie ",
+        price: "18"
+    },
+    {
+        item: "glenlivet ",
+        price: "12"
+    },
+    {
+        item: "glenlivet nadurra",
+        price: "20"
+    },
+    {
+        item: "glenmorangie ",
+        price: "12"
+    },
+    {
+        item: "highland park 12yr",
+        price: "12"
+    },
+    {
+        item: "highland park 18yr",
+        price: "29"
+    },
+    {
+        item: "highland park magnus",
+        price: "13"
+    },
+    {
+        item: "lagavulin 16yr",
+        price: "26"
+    },
+    {
+        item: "laphroig 10yr",
+        price: "13"
+    },
+    {
+        item: "lismore",
+        price: "8"
+    },
+    {
+        item: "macallan 12yr",
+        price: "19"
+    },
+    {
+        item: "macallan edition series",
+        price: "30"
+    },
+    {
+        item: "macallan rare casks",
+        price: "49"
+    },
+    {
+        item: "mccarthy’s ",
+        price: "15"
+    },
+    {
+        item: "oban ",
+        price: "32"
+    },
+    {
+        item: "octomore ",
+        price: "45"
+    },
+    {
+        item: "old pultney",
+        price: "17"
+    },
+    {
+        item: "port charlotte",
+        price: "19"
+    },
+    {
+        item: "speyburn 10yr",
+        price: "12"
+    },
+    {
+        item: "talisker ",
+        price: "24"
+    },
+    {
+        item: "tullibardine 20yr",
+        price: "46"
+    },
+    {
+        item: "tullibardine sherry finish",
+        price: "49"
+    },
+    {
+        item: "sullibardine sovereign",
+        price: "14"
+    }
 ];
 
 export const blended = [
-
+    {
+        item: "chivas regal",
+        price: "10"
+    },
+    {
+        item: "clan macgregor",
+        price: "4"
+    },
+    {
+        item: "dewar's white label",
+        price: "9"
+    },
+    {
+        item: "duggan's dew",
+        price: "6"
+    },
+    {
+        item: "j&b rare",
+        price: "9"
+    },
+    {
+        item: "johnnie walker black",
+        price: "9"
+    },
+    {
+        item: "johnnie walker blue",
+        price: "49"
+    },
+    {
+        item: "johnnie walker double black",
+        price: "12"
+    },
+    {
+        item: "johnnie walker gold",
+        price: "25"
+    },
+    {
+        item: "johnnie walker green",
+        price: "26"
+    },
+    {
+        item: "johnnie walker platinum",
+        price: "29"
+    },
+    {
+        item: "johnnie walker red",
+        price: "9"
+    },
+    {
+        item: "johnnie walker select casks",
+        price: "15"
+    },
+    {
+        item: "johnnie walker swing",
+        price: "18"
+    },
+    {
+        item: "monkey shoulder",
+        price: "9"
+    }
 ];
 
 export const bourbon = [
+    {
+        item: "amador double barrel",
+        price: "14"
+    },
+    {
+        item: "angel's envy",
+        price: "14"
+    },
+    {
+        item: "basil hayden's",
+        price: "13"
+    },
+    {
+        item: "batch 206 log cabin",
+        price: "12"
+    },
+    {
+        item: "black saddle",
+        price: "13"
+    },
+    {
+        item: "blanton's",
+        price: "17"
+    },
+    {
+        item: "booker's",
+        price: "24"
+    },
+    {
+        item: "buffalo trace",
+        price: "7"
+    },
+    {
+        item: "bulleit bourbon",
+        price: "9"
+    },
+    {
+        item: "eagle rare",
+        price: "10"
+    },
+    {
+        item: "elijah craid small batch",
+        price: "9"
+    },
+    {
+        item: "evan williams",
+        price: "6"
+    },
+    {
+        item: "evan william's single barrel",
+        price: "12"
+    },
+    {
+        item: "ezra brooks 12yr",
+        price: "18"
+    },
+    {
+        item: "gentleman jack",
+        price: "8"
+    },
+    {
+        item: "high west american prairie",
+        price: "10"
+    },
+    {
+        item: "high west campfire",
+        price: "11"
+    },
+    {
+        item: "hudson baby bourbon",
+        price: "15"
+    },
+    {
+        item: "i.w. harper",
+        price: "12"
+    },
+    {
+        item: "jack daniels #7",
+        price: "7"
+    },
+    {
+        item: "",
+        price: ""
+    },
+    {
+        item: "",
+        price: ""
+    },
+    {
+        item: "",
+        price: ""
+    },
+    {
+        item: "",
+        price: ""
+    },
+    {
+        item: "",
+        price: ""
+    },
+    {
+        item: "",
+        price: ""
+    },
+    {
+        item: "",
+        price: ""
+    },
+    {
+        item: "",
+        price: ""
+    },
+    {
+        item: "",
+        price: ""
+    },
+    {
+        item: "",
+        price: ""
+    },
+    {
+        item: "",
+        price: ""
+    },
+    {
+        item: "",
+        price: ""
+    },
+    {
+        item: "",
+        price: ""
+    }
 ];
 
 export const canadian = [
-
+    {
+        item: "",
+        price: ""
+    },
 ];
 
 export const flavored = [
-
+    {
+        item: "",
+        price: ""
+    },
 ];
 
 export const misc = [
-
+    {
+        item: "",
+        price: ""
+    },
 ];
 
 export const flights = [
-
+    {
+        item: "",
+        price: ""
+    },
 ];

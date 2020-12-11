@@ -33,6 +33,7 @@ const Drinks = () => {
     const wine = wines.map((item, index) => {
         return (
             <li className="menu-item-container" key={index}>
+                {item.type}
                 <p className="menu-item">
                     {item.item} ${item.price}
                 </p>
@@ -53,15 +54,16 @@ const Drinks = () => {
                     </ul>
                 </Grid.Column>
                 <Grid.Column>
-                    <h3 className="menu-head">BEER</h3>
+                    <h3 className="menu-head">WINE</h3>
+                    <div className="wine-type"></div>
                     <ul>
-                        {beer}
+                        {wine}
                     </ul>
                 </Grid.Column>
                 <Grid.Column>
-                    <h3 className="menu-head">WINE</h3>
+                    <h3 className="menu-head">BEER</h3>
                     <ul>
-                        {wine}
+                        {beer}
                     </ul>
                 </Grid.Column>
             </Grid>
