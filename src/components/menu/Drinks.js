@@ -1,5 +1,3 @@
-import { Grid, Segment } from 'semantic-ui-react';
-
 import { cocktails, beers, wines } from './data';
 
 const Drinks = () => {
@@ -45,29 +43,32 @@ const Drinks = () => {
     });
 
     return (
-        <Segment>
-            <Grid columns={3} relaxed='very'>
-                <Grid.Column>
-                    <h3 className="menu-head">COCKTAILS</h3>
-                    <ul>
-                        {mixedDrinks}
-                    </ul>
-                </Grid.Column>
-                <Grid.Column>
-                    <h3 className="menu-head">WINE</h3>
-                    <div className="wine-type"></div>
-                    <ul>
-                        {wine}
-                    </ul>
-                </Grid.Column>
-                <Grid.Column>
-                    <h3 className="menu-head">BEER</h3>
-                    <ul>
-                        {beer}
-                    </ul>
-                </Grid.Column>
-            </Grid>
-        </Segment>
+        <div className="menu-container food-container">
+        <div className="menu-div">
+            <h3 className="menu-head">TESSIO COCKTAILS</h3>
+            <ul>
+                {mixedDrinks}
+            </ul>
+        </div>
+        <div className="divider">
+            <div className="vertical-line"></div>
+        </div>
+        <div className="menu-div">
+            <h3 className="menu-head">WINE</h3>
+            <ul>
+                {wine}
+            </ul>
+        </div>
+        <div className="divider">
+            <div className="vertical-line"></div>
+        </div>
+        <div className="menu-div">
+            <h3 className="menu-head">BEER</h3>
+            <ul>
+                {beer}
+            </ul>
+        </div>
+    </div>
     )
 }
 

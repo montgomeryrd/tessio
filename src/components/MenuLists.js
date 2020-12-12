@@ -12,17 +12,18 @@ const MenuLists = () => {
   
     return (
         <div className="menu-list-container">
+            <h3>TESSIO MENU</h3>
             <ul className="menu-nav">
-                <li onClick={() => {handleItemClick('happy hour')}} style={{color: activeItem === 'happy hour' ? '#6E9D09' : '#666'}}>
+                <li onClick={() => {handleItemClick('happy hour')}} style={{color: activeItem === 'happy hour' ? '#5499C7' : '#666'}}>
                     Happy Hour
                 </li>
-                <li onClick={() => {handleItemClick('food')}} style={{color: activeItem === 'food' ? '#6E9D09' : '#666'}}
+                <li onClick={() => {handleItemClick('food')}} style={{color: activeItem === 'food' ? '#5499C7' : '#666'}}
                     >Food
                 </li>
-                <li onClick={() => {handleItemClick('beverages')}} style={{color: activeItem === 'beverages' ? '#6E9D09' : '#666'}}>
+                <li onClick={() => {handleItemClick('beverages')}} style={{color: activeItem === 'beverages' ? '#5499C7' : '#666'}}>
                     Beverages
                 </li>
-                <li onClick={() => {handleItemClick('whiskey')}} style={{color: activeItem === 'whiskey' ? '#6E9D09' : '#666'}}>
+                <li onClick={() => {handleItemClick('whiskey')}} style={{color: activeItem === 'whiskey' ? '#5499C7' : '#666'}}>
                     Whiskey
                 </li>
             </ul>    

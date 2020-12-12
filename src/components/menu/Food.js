@@ -55,44 +55,39 @@ const Food = () => {
     });
 
     return (
-        <div className="menu-lists">
-            <div className="half-page">
-                <div className="menu-list-div">
-                    <h3 className="menu-head">STARTERS</h3>
-                    <ul>
-                        {starts}
-                    </ul>
-                </div>
-                <div className="divider">
-                    <div className="vertical-line">
-                        <span>AND</span>
-                    </div>
-                </div>
-                <div className="menu-list-div">
-                    <h3 className="menu-head">TESSIO SALADS</h3>
-                    <ul>
-                        {greens}
-                    </ul>
-                </div>
+        <div className="menu-container food-container">
+            <div className="menu-div">
+                <h3 className="menu-head">STARTERS</h3>
+                <ul>
+                    {starts}
+                </ul>
             </div>
-            <div className="half-page">
-                <div className="menu-list-div">
-                    <h3 className="menu-head">10" PIZZAS</h3>
-                    <ul>
-                        {pies}
-                    </ul>
-                </div>
-                <div className="divider">
-                    <div className="vertical-line">
-                        <span>AND</span>
-                    </div>
-                </div>
-                <div className="menu-list-div">
-                    <h3 className="menu-head">TESSIO PANINIS</h3>
-                    <ul>
-                        {sammies}
-                    </ul>
-                </div>
+            <div className="divider">
+                <div className="vertical-line"></div>
+            </div>
+            <div className="menu-div">
+                <h3 className="menu-head">10" PIZZAS</h3>
+                <ul>
+                    {pies}
+                </ul>
+            </div>
+            <div className="divider">
+                <div className="vertical-line"></div>
+            </div>
+            <div className="menu-div">
+                <h3 className="menu-head">TESSIO PANINIS</h3>
+                <ul>
+                    {sammies}
+                </ul>
+            </div>
+            <div className="divider">
+                <div className="vertical-line"></div>
+            </div>
+            <div className="menu-div">
+                <h3 className="menu-head">TESSIO SALADS</h3>
+                <ul>
+                    {greens}
+                </ul>
             </div>
         </div>
     )

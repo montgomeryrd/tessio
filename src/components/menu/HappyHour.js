@@ -55,8 +55,8 @@ const HappyHour = () => {
     });
 
     return (
-        <div className="happy-hour-container">
-            <div className="happy-hour-div">
+        <div className="menu-container happy-hour-container">
+            <div className="menu-div">
                 <h3 className="menu-head">APPETIZERS</h3>
                 <ul>
                     {apps}
@@ -67,7 +67,7 @@ const HappyHour = () => {
                     <span>AND</span>
                 </div>
             </div>
-            <div className="happy-hour-div">
+            <div className="menu-div">
                 <h3 className="menu-head">BEVERAGES</h3>
                 <ul>
                     {beers}
