@@ -77,9 +77,18 @@ li {
   list-style-type: none;
 }
 
-/* Menu Pages */
+/* Home */
+.breadcrumbs {
+  position: relative;
+  top: 50px;
+  margin-top: 100px;
+  color: #fff;
+}
+.breadcrumbs a {
+  color: #fff;
+}
 
-/* menu-nav */
+/* Menu Pages */
 .menu-nav {
   display: flex;
   flex-direction: row;
@@ -94,26 +103,34 @@ li {
   font-size: 1.2em;
   font-weight: 600;
 }
-/* ------- */
-/* Happy Hour */
-.happy-hour-container {
+
+.menu-container {
   display: flex;
   flex-direction: row;
   justify-content: center;
   border: .5px solid rgb(220, 220, 220);
   background-color: white;
   margin: auto;
-  max-width: 1000px;
   border-radius: 1mm;
 }
 
-.happy-hour-div {
+.menu-div {
+  position: relative;
   width: 100%;
   padding: 20px;
 }
 
+.menu-div ul {
+  font-size: 1.2em;
+}
+
 .menu-item-container {
   text-align: left;
+}
+
+.menu-list-container h3 {
+  position: relative;
+  font-size: 2em;
 }
 
 .menu-item {
@@ -146,7 +163,7 @@ li {
 }
 /* ------------ */
 
-@media(max-width: 800px) {
+@media(max-width: 1000px) {
   .pimg1, .pimg2, .pimg3 {
       background-attachment: scroll;
   }

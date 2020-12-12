@@ -1,5 +1,3 @@
-import { Grid, Segment } from 'semantic-ui-react';
-
 import { irish, rye, malt, blended, bourbon, canadian, flavored, misc, flights } from './data';
 
 const Liquors = () => {
@@ -98,68 +96,86 @@ const Liquors = () => {
     });
 
     return (
-        <Segment>
-            <Grid columns={3} relaxed='very'>
-                <Grid.Column>
-                    <h3 className="menu-head">BOURBON</h3>
-                    <ul>
-                        {bourbonAlc}
-                    </ul>
-                </Grid.Column>
-                <Grid.Column>
-                    <h3 className="menu-head">SINGLE MALT SCOTCH</h3>
-                    <ul>
-                        {maltAlc}
-                    </ul>
-                </Grid.Column>
-                <Grid.Column>
-                    <h3 className="menu-head">WHISKEY FLIGHTS</h3>
-                    <ul>
-                        {flightsAlc}
-                    </ul>
-                </Grid.Column>
-            </Grid>
-            <Grid columns={3} relaxed='very'>
-                <Grid.Column>
-                    <h3 className="menu-head">BLENDED SCOTCH</h3>
-                    <ul>
-                        {blendedAlc}
-                    </ul>
-                </Grid.Column>
-                <Grid.Column>
-                    <h3 className="menu-head">IRISH</h3>
-                    <ul>
-                        {irishAlc}
-                    </ul>
-                </Grid.Column>
-                <Grid.Column>
-                    <h3 className="menu-head">CANADIAN</h3>
-                    <ul>
-                        {canadianAlc}
-                    </ul>
-                </Grid.Column>
-            </Grid>
-            <Grid columns={3} relaxed='very'>
-                <Grid.Column>
-                    <h3 className="menu-head">FLAVORED</h3>
-                    <ul>
-                        {flavoredAlc}
-                    </ul>
-                </Grid.Column>
-                <Grid.Column>
-                    <h3 className="menu-head">MISC</h3>
-                    <ul>
-                        {miscAlc}
-                    </ul>
-                </Grid.Column>
-                <Grid.Column>
-                    <h3 className="menu-head">RYE</h3>
-                    <ul>
-                        {ryeAlc}
-                    </ul>
-                </Grid.Column>
-            </Grid>
-        </Segment>
+        <div className="menu-container food-container">
+            <div className="menu-div">
+                <h3 className="menu-head">WHISKEY FLIGHTS</h3>
+                <ul>
+                    {flightsAlc}
+                </ul>
+            </div>
+            <div className="divider">
+                <div className="vertical-line"></div>
+            </div>
+            <div className="menu-div">
+                <h3 className="menu-head">BOURBON</h3>
+                <ul>
+                    {bourbonAlc}
+                </ul>
+            </div>
+            <div className="divider">
+                <div className="vertical-line"></div>
+            </div>
+            <div className="menu-div">
+                <h3 className="menu-head">MALT SINGLE SCOTCH</h3>
+                <ul>
+                    {maltAlc}
+                </ul>
+            </div>
+            <div className="divider">
+                <div className="vertical-line"></div>
+            </div>
+            <div className="menu-div">
+                <h3 className="menu-head">BLENDED SCOTCH</h3>
+                <ul>
+                    {blendedAlc}
+                </ul>
+            </div>
+            <div className="divider">
+                <div className="vertical-line"></div>
+            </div>
+            <div className="menu-div">
+                <h3 className="menu-head">IRISH WHISKEY</h3>
+                <ul>
+                    {irishAlc}
+                </ul>
+            </div>
+            <div className="divider">
+                <div className="vertical-line"></div>
+            </div>
+            <div className="menu-div">
+                <h3 className="menu-head">CANADIAN WHISKEY</h3>
+                <ul>
+                    {canadianAlc}
+                </ul>
+            </div>
+            <div className="divider">
+                <div className="vertical-line"></div>
+            </div>
+            <div className="menu-div">
+                <h3 className="menu-head">RYE WHISKEY</h3>
+                <ul>
+                    {ryeAlc}
+                </ul>
+            </div>
+            <div className="divider">
+                <div className="vertical-line"></div>
+            </div>
+            <div className="menu-div">
+                <h3 className="menu-head">FLAVORED</h3>
+                <ul>
+                    {flavoredAlc}
+                </ul>
+            </div>
+            <div className="divider">
+                <div className="vertical-line"></div>
+            </div>
+            <div className="menu-div">
+                <h3 className="menu-head">MISC</h3>
+                <ul>
+                    {miscAlc}
+                </ul>
+            </div>
+        </div>
     )
 }
 
