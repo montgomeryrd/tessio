@@ -1,13 +1,12 @@
 html, body {
   height: 100%;
   margin: 0;
-  font-size: 16px;
+  font-size: 20px;
   font-family: "Lato", sans-serif;
   font-weight: 400;
   line-height: 1.8em;
   color: #666;
 }
-
 .pimg1, .pimg2, .pimg3 {
   position: relative;
   opacity: 0.70;
@@ -21,37 +20,30 @@ html, body {
   */
   background-attachment: fixed;
 }
-
 .pimg1 {
   background-image: url('./assets/top.jpg');
   min-height: 100vh;
 }
-
 .pimg2 {
   background-image: url('./assets/mid.jpg');
   min-height: 400px;
 }
-
 .pimg3 {
   background-image: url('./assets/bot.jpg');
   min-height: 400px;
 }
-
 .section {
   text-align: center;
   padding: 50px 80px;
 }
-
 .section-light {
   background-color: #f4f4f4;
   color: #666;
 }
-
 .section-dark {
   background-color: #282e34;
   color: #ddd;
 }
-
 .ptext {
   position: absolute;
   top: 50%;
@@ -62,21 +54,17 @@ html, body {
   letter-spacing: 8px;
   text-transform: uppercase;
 }
-
 .ptext .border {
   background-color: #111;
   color: #fff;
   padding: 20px;
 }
-
 .ptext .border.trans {
   background-color: transparent;
 }
-
 li {
   list-style-type: none;
 }
-
 /* Home */
 .breadcrumbs {
   position: relative;
@@ -87,8 +75,7 @@ li {
 .breadcrumbs a {
   color: #fff;
 }
-
-/* Menu Pages */
+/* Menu Sections */
 .menu-nav {
   display: flex;
   flex-direction: row;
@@ -97,13 +84,11 @@ li {
   padding-bottom: 10px;
   margin-bottom: 40px;
 }
-
 .menu-nav li {
   padding: 5px 40px;
   font-size: 1.2em;
   font-weight: 600;
 }
-
 .menu-container {
   display: flex;
   flex-direction: row;
@@ -113,30 +98,24 @@ li {
   margin: auto;
   border-radius: 1mm;
 }
-
 .menu-div {
   position: relative;
   width: 100%;
   padding: 20px;
 }
-
 .menu-div ul {
   font-size: 1.2em;
 }
-
 .menu-item-container {
   text-align: left;
 }
-
 .menu-list-container h3 {
   position: relative;
   font-size: 2em;
 }
-
 .menu-item {
   font-weight: 600;
 }
-
 .menu-description {
   margin-top: -15px;
   padding-bottom: 20px;
@@ -151,7 +130,6 @@ li {
   padding: 5px;
   margin: auto 0 auto -20px;
 }
-
 .vertical-line {
   position: relative;
   display: flex;
@@ -162,6 +140,62 @@ li {
   border-left: 1px solid rgb(220, 220, 220);
 }
 /* ------------ */
+/* About Section */
+.about-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 500px;
+  padding: 50px;
+  color: #666;
+}
+.about-tessio-section {
+  padding: 50px;
+}
+.about-tessio-section h2 {
+  margin-left: 40px;
+}
+.about-tessio-info {
+  font-size: 20px;
+  text-align: center;
+}
+.about-tessio-info li {
+  padding: 0 0 15px 0;
+}
+#phone {
+  font-weight: 900;
+  font-size: 27px;
+  margin-top: 10px;
+}
+.about-tessio-links li a {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: #666;
+  padding: 5px;
+  font-size: 20px;
+  margin-left: 25px;
+}
+.about-tessio-links li a span {
+  margin-left: 10px;
+}
+.about-tessio-links li a:hover {
+  color: teal;
+  /* transition: 1000ms; */
+}
+.icons {
+  height: 40px;
+  padding: 0 2px 0 2px;
+}
+.bold {
+  font-weight: 600;
+}
+
+.google-map-code {
+  border: 1px solid #666;
+  box-shadow: 2px 8px 16px 0px #666;
+  margin-left: 100px;
+}
 
 @media(max-width: 1000px) {
   .pimg1, .pimg2, .pimg3 {
