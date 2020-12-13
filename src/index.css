@@ -191,7 +191,9 @@ li {
 
 .google-map-code {
   border: 1px solid #666;
-  box-shadow: 2px 8px 16px 0px #666;
+  width: 602px;
+  height: 452px;
+  box-shadow: 2px 5px 16px 0px #666;
   margin-left: 100px;
 }
 
