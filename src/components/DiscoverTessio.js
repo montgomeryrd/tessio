@@ -1,6 +1,7 @@
 import React from 'react'
 
 import fb from '../assets/fb-icon.png';
+import instagram from '../assets/instagram-icon.png';
 import slice from '../assets/slice-icon.png';
 import map from '../assets/gmaps-icon.png';
 
@@ -30,15 +31,20 @@ const DiscoverTessio = () => {
                         </a>
                     </li>
                     <li>
+                        <a href="https://www.instagram.com/tessio.pizza.beer.whiskey/?hl=bn" target="_blank" rel="noreferrer">
+                            <img className="icons" src={instagram} alt="instagram" /><span>Find us on Instagram</span>
+                        </a>
+                    </li>             
+                    <li>
                         <a href="https://slicelife.com/restaurants/wa/silverdale/98383/tessio/menu" target="_blank" rel="noreferrer">
                             <img className="icons" src={slice} alt="slice" /><span>Order through Slice</span>
                         </a>
                     </li>    
                     <li>
                         <a href="https://goo.gl/maps/ZzRhoudrNdUaWeTS7" target="_blank" rel="noreferrer">
-                            <img className="icons" src={map} alt="slice" /><span>On Google Maps</span>
+                            <img className="icons" src={map} alt="google maps" /><span>On Google Maps</span>
                         </a>
-                    </li>                 
+                    </li>
                 </ul>
                 
             </div>
