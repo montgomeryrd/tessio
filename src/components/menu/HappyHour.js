@@ -4,7 +4,7 @@ const HappyHour = () => {
 
     const apps = appetizers.map((item, index) => {
         return (
-            <li className="menu-item-container" key={index}>
+            <li key={index}>
                 <p className="menu-item">
                     {item.item} ${item.price}
                 </p>
@@ -17,7 +17,7 @@ const HappyHour = () => {
 
     const beers = tapBeers.map((item, index) => {
         return (
-            <li className="menu-item-container" key={index}>
+            <li key={index}>
                 <p className="menu-item">
                     {item.item} ${item.price}
                 </p>
@@ -30,7 +30,7 @@ const HappyHour = () => {
 
     const wines = houseWines.map((item, index) => {
         return (
-            <li className="menu-item-container" key={index}>
+            <li key={index}>
                 <p className="menu-item">
                     {item.item} ${item.price}
                 </p>
@@ -43,7 +43,7 @@ const HappyHour = () => {
 
     const well = wells.map((item, index) => {
         return (
-            <li className="menu-item-container" key={index}>
+            <li key={index}>
                 <p className="menu-item">
                     {item.item} ${item.price}
                 </p>
@@ -55,17 +55,12 @@ const HappyHour = () => {
     });
 
     return (
-        <div className="menu-container happy-hour-container">
+        <div className="menu-container">
             <div className="menu-div">
                 <h3 className="menu-head">APPETIZERS</h3>
                 <ul>
                     {apps}
                 </ul>
-            </div>
-            <div className="divider">
-                <div className="vertical-line">
-                    <span>AND</span>
-                </div>
             </div>
             <div className="menu-div">
                 <h3 className="menu-head">BEVERAGES</h3>

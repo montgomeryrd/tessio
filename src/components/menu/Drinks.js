@@ -4,7 +4,7 @@ const Drinks = () => {
 
     const mixedDrinks = cocktails.map((item, index) => {
         return (
-            <li className="menu-item-container" key={index}>
+            <li key={index}>
                 <p className="menu-item">
                     {item.item} ${item.price}
                 </p>
@@ -17,7 +17,7 @@ const Drinks = () => {
 
     const beer = beers.map((item, index) => {
         return (
-            <li className="menu-item-container" key={index}>
+            <li key={index}>
                 <p className="menu-item">
                     {item.item} ${item.price}
                 </p>
@@ -30,7 +30,7 @@ const Drinks = () => {
 
     const wine = wines.map((item, index) => {
         return (
-            <li className="menu-item-container" key={index}>
+            <li key={index}>
                 {item.type}
                 <p className="menu-item">
                     {item.item} ${item.price}
@@ -43,32 +43,30 @@ const Drinks = () => {
     });
 
     return (
-        <div className="menu-container food-container">
-        <div className="menu-div">
-            <h3 className="menu-head">TESSIO COCKTAILS</h3>
-            <ul>
-                {mixedDrinks}
-            </ul>
+        <div className="menu-container">
+
+            <div className="menu-div three-column-view">
+                <h3 className="menu-head">COCKTAILS</h3>
+                <ul>
+                    {mixedDrinks}
+                </ul>
+            </div>
+
+            <div className="menu-div three-column-view">
+                <h3 className="menu-head">WINE</h3>
+                <ul>
+                    {wine}
+                </ul>
+            </div>
+
+            <div className="menu-div three-column-view">
+                <h3 className="menu-head">BEER</h3>
+                <ul>
+                    {beer}
+                </ul>
+            </div>
+
         </div>
-        <div className="divider">
-            <div className="vertical-line"></div>
-        </div>
-        <div className="menu-div">
-            <h3 className="menu-head">WINE</h3>
-            <ul>
-                {wine}
-            </ul>
-        </div>
-        <div className="divider">
-            <div className="vertical-line"></div>
-        </div>
-        <div className="menu-div">
-            <h3 className="menu-head">BEER</h3>
-            <ul>
-                {beer}
-            </ul>
-        </div>
-    </div>
     )
 }
 

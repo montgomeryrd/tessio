@@ -1,8 +1,8 @@
-import React from 'react'
-import DiscoverTessio from './DiscoverTessio';
+import Breadcrumbs from './Breadcrumbs';
 import MenuLists from './MenuLists';
+import DiscoverTessio from './DiscoverTessio';
 
-const Section = ({ breadcrumbOne, breadcrumbTwo, imageText, name, pagination, title, text}) => {
+const Section = ({ imageText, name, pagination, title, text}) => {
 
     return (
         <div className="section-container">
@@ -11,24 +11,14 @@ const Section = ({ breadcrumbOne, breadcrumbTwo, imageText, name, pagination, ti
                     <span className="border" id={pagination}>
                         {imageText}
                     </span>
-                    <div className="ptext">
-                        <span className="breadcrumbs">
-                            <a href="#menu-list-container">
-                                {breadcrumbOne}
-                            </a>
-                            { name === 'pimg1' ? <span> ∙ </span> : '' }
-                            <a href="#discover-tessio">
-                                {breadcrumbTwo}
-                            </a>
-                        </span>
-                    </div>
+                    { name === 'pimg1' ? <Breadcrumbs /> : '' }
                 </div>
             </div>
             <section className="section section-light">
                 <h2>{title}</h2>
                 <p>{text}</p>
                 { name === 'pimg2' ? <MenuLists /> : '' }
-                { name === 'pimg3' ? <DiscoverTessio /> : ''}
+                { name === 'pimg3' ? <DiscoverTessio /> : '' }
             </section>
         </div>
     )
