@@ -4,7 +4,7 @@ const Liquors = () => {
 
     const irishAlc = irish.map((item, index) => {
         return (
-            <li className="menu-item-container" key={index}>
+            <li key={index}>
                 <p className="menu-item">
                     {item.item} ${item.price}
                 </p>
@@ -14,7 +14,7 @@ const Liquors = () => {
 
     const ryeAlc = rye.map((item, index) => {
         return (
-            <li className="menu-item-container" key={index}>
+            <li key={index}>
                 <p className="menu-item">
                     {item.item} ${item.price}
                 </p>
@@ -24,7 +24,7 @@ const Liquors = () => {
 
     const maltAlc = malt.map((item, index) => {
         return (
-            <li className="menu-item-container" key={index}>
+            <li key={index}>
                 <p className="menu-item">
                     {item.item} ${item.price}
                 </p>
@@ -34,7 +34,7 @@ const Liquors = () => {
 
     const blendedAlc = blended.map((item, index) => {
         return (
-            <li className="menu-item-container" key={index}>
+            <li key={index}>
                 <p className="menu-item">
                     {item.item} ${item.price}
                 </p>
@@ -44,7 +44,7 @@ const Liquors = () => {
 
     const bourbonAlc = bourbon.map((item, index) => {
         return (
-            <li className="menu-item-container" key={index}>
+            <li key={index}>
                 <p className="menu-item">
                     {item.item} ${item.price}
                 </p>
@@ -54,7 +54,7 @@ const Liquors = () => {
 
     const canadianAlc = canadian.map((item, index) => {
         return (
-            <li className="menu-item-container" key={index}>
+            <li key={index}>
                 <p className="menu-item">
                     {item.item} ${item.price}
                 </p>
@@ -64,7 +64,7 @@ const Liquors = () => {
 
     const flavoredAlc = flavored.map((item, index) => {
         return (
-            <li className="menu-item-container" key={index}>
+            <li key={index}>
                 <p className="menu-item">
                     {item.item} ${item.price}
                 </p>
@@ -74,7 +74,7 @@ const Liquors = () => {
 
     const miscAlc = misc.map((item, index) => {
         return (
-            <li className="menu-item-container" key={index}>
+            <li key={index}>
                 <p className="menu-item">
                     {item.item} ${item.price}
                 </p>
@@ -84,7 +84,7 @@ const Liquors = () => {
 
     const flightsAlc = flights.map((item, index) => {
         return (
-            <li className="menu-item-container" key={index}>
+            <li key={index}>
                 <p className="menu-item">
                     {item.item} ${item.price}
                 </p>
@@ -96,85 +96,71 @@ const Liquors = () => {
     });
 
     return (
-        <div className="menu-container food-container">
-            <div className="menu-div">
+        <div className="menu-container">
+
+            <div className="menu-div three-column-view">
                 <h3 className="menu-head">WHISKEY FLIGHTS</h3>
                 <ul>
                     {flightsAlc}
                 </ul>
             </div>
-            <div className="divider">
-                <div className="vertical-line"></div>
-            </div>
-            <div className="menu-div">
+
+            <div className="menu-div three-column-view">
                 <h3 className="menu-head">BOURBON</h3>
                 <ul>
                     {bourbonAlc}
                 </ul>
             </div>
-            <div className="divider">
-                <div className="vertical-line"></div>
-            </div>
-            <div className="menu-div">
+
+            <div className="menu-div three-column-view">
                 <h3 className="menu-head">MALT SINGLE SCOTCH</h3>
                 <ul>
                     {maltAlc}
                 </ul>
             </div>
-            <div className="divider">
-                <div className="vertical-line"></div>
-            </div>
-            <div className="menu-div">
+
+            <div className="menu-div three-column-view">
                 <h3 className="menu-head">BLENDED SCOTCH</h3>
                 <ul>
                     {blendedAlc}
                 </ul>
             </div>
-            <div className="divider">
-                <div className="vertical-line"></div>
-            </div>
-            <div className="menu-div">
+
+            <div className="menu-div three-column-view">
                 <h3 className="menu-head">IRISH WHISKEY</h3>
                 <ul>
                     {irishAlc}
                 </ul>
             </div>
-            <div className="divider">
-                <div className="vertical-line"></div>
-            </div>
-            <div className="menu-div">
+
+            <div className="menu-div three-column-view">
                 <h3 className="menu-head">CANADIAN WHISKEY</h3>
                 <ul>
                     {canadianAlc}
                 </ul>
             </div>
-            <div className="divider">
-                <div className="vertical-line"></div>
-            </div>
-            <div className="menu-div">
+
+            <div className="menu-div three-column-view">
                 <h3 className="menu-head">RYE WHISKEY</h3>
                 <ul>
                     {ryeAlc}
                 </ul>
             </div>
-            <div className="divider">
-                <div className="vertical-line"></div>
-            </div>
-            <div className="menu-div">
+
+            <div className="menu-div three-column-view">
                 <h3 className="menu-head">FLAVORED</h3>
                 <ul>
                     {flavoredAlc}
                 </ul>
             </div>
-            <div className="divider">
-                <div className="vertical-line"></div>
-            </div>
-            <div className="menu-div">
+
+            <div className="menu-div three-column-view">
                 <h3 className="menu-head">MISC</h3>
                 <ul>
                     {miscAlc}
                 </ul>
             </div>
+            
         </div>
     )
 }

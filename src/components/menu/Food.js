@@ -4,7 +4,7 @@ const Food = () => {
 
     const starts = starters.map((item, index) => {
         return (
-            <li className="menu-item-container" key={index}>
+            <li key={index}>
                 <p className="menu-item">
                     {item.item} ${item.price}
                 </p>
@@ -17,7 +17,7 @@ const Food = () => {
 
     const greens = salads.map((item, index) => {
         return (
-            <li className="menu-item-container" key={index}>
+            <li key={index}>
                 <p className="menu-item">
                     {item.item} ${item.price}
                 </p>
@@ -30,7 +30,7 @@ const Food = () => {
 
     const pies = pizzas.map((item, index) => {
         return (
-            <li className="menu-item-container" key={index}>
+            <li key={index}>
                 <p className="menu-item">
                     {item.item} ${item.price}
                 </p>
@@ -43,7 +43,7 @@ const Food = () => {
 
     const sammies = paninis.map((item, index) => {
         return (
-            <li className="menu-item-container" key={index}>
+            <li key={index}>
                 <p className="menu-item">
                     {item.item} ${item.price}
                 </p>
@@ -55,40 +55,36 @@ const Food = () => {
     });
 
     return (
-        <div className="menu-container food-container">
-            <div className="menu-div">
+        <div className="menu-container">
+
+            <div className="menu-div four-column-view">
                 <h3 className="menu-head">STARTERS</h3>
                 <ul>
                     {starts}
                 </ul>
             </div>
-            <div className="divider">
-                <div className="vertical-line"></div>
-            </div>
-            <div className="menu-div">
+
+            <div className="menu-div four-column-view">
                 <h3 className="menu-head">10" PIZZAS</h3>
                 <ul>
                     {pies}
                 </ul>
             </div>
-            <div className="divider">
-                <div className="vertical-line"></div>
-            </div>
-            <div className="menu-div">
-                <h3 className="menu-head">TESSIO PANINIS</h3>
+
+            <div className="menu-div four-column-view">
+                <h3 className="menu-head">PANINIS</h3>
                 <ul>
                     {sammies}
                 </ul>
             </div>
-            <div className="divider">
-                <div className="vertical-line"></div>
-            </div>
-            <div className="menu-div">
-                <h3 className="menu-head">TESSIO SALADS</h3>
+
+            <div className="menu-div four-column-view">
+                <h3 className="menu-head">SALADS</h3>
                 <ul>
                     {greens}
                 </ul>
             </div>
+
         </div>
     )
 }

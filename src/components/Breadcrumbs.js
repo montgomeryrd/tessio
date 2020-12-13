@@ -5,7 +5,7 @@ const Breadcrumbs = () => {
         <div className="ptext">
             <span className="breadcrumbs">
                 <a href="#menu-list-container">
-                    see our menu
+                    view our menu
                 </a>
                 <span> ∙ </span>
                 <a href="#discover-tessio">

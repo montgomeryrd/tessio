@@ -45,7 +45,7 @@ export const tapBeers = [
     {
         item : "mama's little yella pils",
         price: "4",
-        description: "mesoskar blues brewery, CO - 5.3% ABV pilsnersage"
+        description: "oskar blues brewery, colorado - 4.7% ABV mountain pilsner"
     },
     {
         item: "ridgetop red",
