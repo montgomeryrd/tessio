@@ -90,6 +90,7 @@ li {
   margin-bottom: 40px;
 }
 .menu-nav li {
+  cursor: pointer;
   padding: 5px 40px;
   font-size: 1.2em;
   font-weight: 600;
@@ -103,6 +104,9 @@ li {
   flex-wrap: wrap;
   padding: 30px;
 }
+.menu-list-container h3 {
+  font-size: 1.6em;
+}
 .menu-div {
   position: relative;
   display: flex;
@@ -112,13 +116,8 @@ li {
   padding: 40px;
   background-color: white;
   border: .5px solid rgb(209, 209, 209);
-  width: 500px;
-}
-.three-column-view {
-  flex-basis: 30%;
-}
-.four-column-view {
-  flex-basis: 25%;
+  max-width: 500px;
+  min-width: 460px;
 }
 .menu-head {
   position: absolute;
@@ -130,6 +129,7 @@ li {
 }
 .menu-div ul li {
   margin-left: -40px;
+  text-align: left;
 }
 .menu-item {
   font-weight: 600;
@@ -138,23 +138,34 @@ li {
   margin-top: -20px;
   padding-bottom: 30px;
 }
+.menu-alcohol-spacing li{
+  padding: 5px;
+  border-bottom: .5px solid #666;
+}
+.three-column-view {
+  flex-basis: 30%;
+}
+.four-column-view {
+  flex-basis: 25%;
+}
 /* About Section */
 .about-container {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  height: 500px;
+  flex-wrap: wrap;
+  min-height: 500px;
   padding: 50px;
   color: #666;
 }
 .about-tessio-section {
   padding: 50px;
+  margin-top: -20px;
 }
 .about-tessio-section h2 {
   margin-left: 40px;
 }
 .about-tessio-info {
-  font-size: 20px;
   text-align: center;
 }
 .about-tessio-info li {
@@ -191,20 +202,46 @@ li {
 
 .google-map-code {
   border: 1px solid #666;
-  box-shadow: 2px 8px 16px 0px #666;
-  margin-left: 100px;
+  width: 602px;
+  height: 452px;
+  box-shadow: 2px 5px 16px 0px #666;
 }
 
 @media(max-width: 1000px) {
   .pimg1, .pimg2, .pimg3 {
       background-attachment: scroll;
   }
-
   .border {
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
-
+  .section {
+    text-align: justify;
+  }
+  .section h2 {
+    text-align: center;
+  }
   .menu-nav li {
     padding: 0 20px;
+    font-size: 1em;
+  }
+  .menu-list-container h3 {
+    text-align: center;
+    font-size: 1.5em;
+  }
+  .google-map-code, .google-map-code iframe {
+    display: none;
+  }
+  .about-tessio-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: -40px;
+    margin-bottom: -60px;
+  }
+  .about-tessio-section h2 {
+    width: 460px;
+  }
+  .about-tessio-links {
+    margin-left: 85px;
   }
 }

@@ -58,28 +58,28 @@ const Food = () => {
         <div className="menu-container">
 
             <div className="menu-div four-column-view">
-                <h3 className="menu-head">STARTERS</h3>
+                <h4 className="menu-head">STARTERS</h4>
                 <ul>
                     {starts}
                 </ul>
             </div>
 
             <div className="menu-div four-column-view">
-                <h3 className="menu-head">10" PIZZAS</h3>
+                <h4 className="menu-head">10" PIZZAS</h4>
                 <ul>
                     {pies}
                 </ul>
             </div>
 
             <div className="menu-div four-column-view">
-                <h3 className="menu-head">PANINIS</h3>
+                <h4 className="menu-head">PANINIS</h4>
                 <ul>
                     {sammies}
                 </ul>
             </div>
 
             <div className="menu-div four-column-view">
-                <h3 className="menu-head">SALADS</h3>
+                <h4 className="menu-head">SALADS</h4>
                 <ul>
                     {greens}
                 </ul>
