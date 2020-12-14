@@ -99,64 +99,64 @@ const Liquors = () => {
         <div className="menu-container">
 
             <div className="menu-div three-column-view">
-                <h3 className="menu-head">WHISKEY FLIGHTS</h3>
+                <h4 className="menu-head">WHISKEY FLIGHTS</h4>
                 <ul>
                     {flightsAlc}
                 </ul>
             </div>
 
             <div className="menu-div three-column-view">
-                <h3 className="menu-head">BOURBON</h3>
-                <ul>
+                <h4 className="menu-head">BOURBON</h4>
+                <ul className="menu-alcohol-spacing">
                     {bourbonAlc}
                 </ul>
             </div>
 
             <div className="menu-div three-column-view">
-                <h3 className="menu-head">MALT SINGLE SCOTCH</h3>
-                <ul>
+                <h4 className="menu-head">MALT SINGLE SCOTCH</h4>
+                <ul className="menu-alcohol-spacing">
                     {maltAlc}
                 </ul>
             </div>
 
             <div className="menu-div three-column-view">
-                <h3 className="menu-head">BLENDED SCOTCH</h3>
-                <ul>
+                <h4 className="menu-head">BLENDED SCOTCH</h4>
+                <ul className="menu-alcohol-spacing">
                     {blendedAlc}
                 </ul>
             </div>
 
             <div className="menu-div three-column-view">
-                <h3 className="menu-head">IRISH WHISKEY</h3>
-                <ul>
+                <h4 className="menu-head">IRISH WHISKEY</h4>
+                <ul className="menu-alcohol-spacing">
                     {irishAlc}
                 </ul>
             </div>
 
             <div className="menu-div three-column-view">
-                <h3 className="menu-head">CANADIAN WHISKEY</h3>
-                <ul>
+                <h4 className="menu-head">RYE WHISKEY</h4>
+                <ul className="menu-alcohol-spacing">
+                    {ryeAlc}
+                </ul>
+            </div>
+            
+            <div className="menu-div three-column-view">
+                <h4 className="menu-head">CANADIAN WHISKEY</h4>
+                <ul className="menu-alcohol-spacing">
                     {canadianAlc}
                 </ul>
             </div>
 
             <div className="menu-div three-column-view">
-                <h3 className="menu-head">RYE WHISKEY</h3>
-                <ul>
-                    {ryeAlc}
-                </ul>
-            </div>
-
-            <div className="menu-div three-column-view">
-                <h3 className="menu-head">FLAVORED</h3>
-                <ul>
+                <h4 className="menu-head">FLAVORED</h4>
+                <ul className="menu-alcohol-spacing">
                     {flavoredAlc}
                 </ul>
             </div>
 
             <div className="menu-div three-column-view">
-                <h3 className="menu-head">MISC</h3>
-                <ul>
+                <h4 className="menu-head">MISC</h4>
+                <ul className="menu-alcohol-spacing">
                     {miscAlc}
                 </ul>
             </div>

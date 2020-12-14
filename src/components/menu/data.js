@@ -478,7 +478,7 @@ export const wines = [
         type: "wine flight",
         item: "create your own wine flight",
         price: "14",
-        description: "choose any three of WHITE, RED, or HOUSE wines"
+        description: "choose any three from the list above"
     },
     {
         type: "anchor valley by the bottle",
@@ -1196,9 +1196,9 @@ export const flights = [
         description: "tullamore 6yr irish, tullamore 12yr single malt, tullamore 14yr special reserve"
     },
     {
-        item: "johnny, jack, and jim",
+        item: "johnnie, jack, and jim",
         price: "24",
-        description: "johnny walker doubel black, jack daniels single barrel, jim beam single barrel"
+        description: "johnnie walker double black, jack daniels single barrel, jim beam single barrel"
     },
     {
         item: "catcher in the rye",
@@ -1226,13 +1226,13 @@ export const flights = [
         description: "whistle pig 10yr, whistle pig 12yr, whistle pig 15yr"
     },
     {
-        item: "johnny green, gold, and blue",
+        item: "johnnie green, gold, and blue",
         price: "60",
-        description: "johnny walker green, johnny walker gold, johnny walker blue"
+        description: "johnnie walker green, johnnie walker gold, johnnie walker blue"
     },
     {
         item: "the gold standard",
         price: "87",
-        description: "tullabardine 20yr, macallan rare cask, johnny walker blue"
+        description: "tullabardine 20yr, macallan rare cask, johnnie walker blue"
     }
 ];

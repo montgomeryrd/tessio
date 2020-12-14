@@ -57,13 +57,13 @@ const HappyHour = () => {
     return (
         <div className="menu-container">
             <div className="menu-div">
-                <h3 className="menu-head">APPETIZERS</h3>
+                <h4 className="menu-head">APPETIZERS</h4>
                 <ul>
                     {apps}
                 </ul>
             </div>
             <div className="menu-div">
-                <h3 className="menu-head">BEVERAGES</h3>
+                <h4 className="menu-head">BEVERAGES</h4>
                 <ul>
                     {beers}
                     {wines}
