@@ -187,7 +187,7 @@ li {
   height: 40px;
 }
 
-@media(max-width: 1000px) {
+@media(max-width: 600px) {
   .pimg1, .pimg2, .pimg3 {
       background-attachment: scroll;
   }
@@ -200,11 +200,21 @@ li {
   .section {
     font-size: .9em;
   }
+  .menu-nav {
+    font-size: .6em;
+  }
+  .menu-container {
+    position: relative;
+    margin: 0 -60px 0 -60px;;
+  }
   .menu-div {
     flex-basis: 100%;
   }
   .menu-description {
     padding-top: 6px;
+  }
+  .menu-alcohol-spacing li {
+    border-bottom: none;
   }
   .google-map-code {
     display: none;
@@ -213,6 +223,6 @@ li {
     margin-left: -30px;
   }
   .about-tessio-links {
-    margin-left: -30px;
+    margin-left: -50px;
   }
 }
