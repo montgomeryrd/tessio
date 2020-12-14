@@ -12,10 +12,9 @@ const MenuLists = () => {
   
     return (
         <div className="menu-list-container">
-            <h3>TESSIO MENU</h3>
             <ul className="menu-nav">
                 <li onClick={() => {handleItemClick('happy hour')}} style={{color: activeItem === 'happy hour' ? '#5499C7' : '#666'}}>
-                    Happyhour
+                    Happy Hour
                 </li>
                 <li onClick={() => {handleItemClick('food')}} style={{color: activeItem === 'food' ? '#5499C7' : '#666'}}
                     >Food
