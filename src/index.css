@@ -201,7 +201,8 @@ li {
     font-size: .9em;
   }
   .menu-nav {
-    font-size: .6em;
+    margin: 0 -60px 10px -60px;
+    font-size: .9em;
   }
   .menu-container {
     position: relative;
