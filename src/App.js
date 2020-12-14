@@ -17,6 +17,7 @@ function App() {
 				name = {'pimg2'}
 				imageText = {'pizza. beer. whiskey.'}
 				pagination = {'menu-list-container'}
+				title = {'TESSIO MENU'}
 			/>
 			<Section
 				name = {'pimg3'}

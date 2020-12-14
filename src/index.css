@@ -6,6 +6,19 @@ html, body {
   font-weight: 400;
   line-height: 1.8em;
   color: #666;
+  /* overflow: auto; */
+}
+body::-webkit-scrollbar {
+  width: 0.7em;
+  background: #888;
+}
+body::-webkit-scrollbar-thumb {
+  background: #666;
+  height:5px;
+}
+body::-webkit-scrollbar-track-piece
+{
+   display:none;
 }
 .pimg1, .pimg2, .pimg3 {
   position: relative;
@@ -13,7 +26,6 @@ html, body {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-
   /* 
       fixed = parallax effect
       scroll = normal
@@ -67,197 +79,140 @@ li {
 }
 /* Home */
 .breadcrumbs {
-  position: relative;
+  background-color: #111;
+  color: #fff;
   display: flex;
   flex-direction: row;
   justify-content: center;
-  top: 70px;
+  margin-top: 100px;
   padding: 20px;
-  background-color: #111;
-  color: #fff;
-  font-size: 20px;
+  font-size: .6em;
 }
 .breadcrumbs a {
+  margin: 0 10px 0 10px;
   color: #fff;
 }
-/* Menu Sections */
+/* Menu Nav */
 .menu-nav {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  border-bottom: 1px solid #666;
-  padding-bottom: 10px;
-  margin-bottom: 20px;
+  padding: 20px 0 20px 0;
+  border-top: .5px solid #666;
+  border-bottom: .5px solid #666;
 }
 .menu-nav li {
-  cursor: pointer;
-  padding: 5px 40px;
-  font-size: 1.2em;
-  font-weight: 600;
+  padding: 0 4% 0 4%;
 }
-/* Menu Styles */
+/* Menu Items */
 .menu-container {
-  position: relative;
   display: flex;
   flex-direction: row;
   justify-content: center;
   flex-wrap: wrap;
-  padding: 30px;
-}
-.menu-list-container h3 {
-  font-size: 1.6em;
 }
 .menu-div {
-  position: relative;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  flex-wrap: wrap;
-  padding: 40px;
   background-color: white;
-  border: .5px solid rgb(209, 209, 209);
-  max-width: 500px;
-  min-width: 440px;
+  border: .5px solid rgb(200,200,200);
+  padding: 20px;
+  width: 600px;
 }
 .menu-head {
-  position: absolute;
-  margin: 0 auto;
-  font-size: 1.2em;
-}
-.menu-div ul {
-  margin-top: 50px;
+  font-size: 1.3em;
 }
 .menu-div ul li {
-  margin-left: -40px;
   text-align: left;
+  margin-right: 5px;
 }
 .menu-item {
   font-weight: 600;
 }
 .menu-description {
   margin-top: -20px;
-  padding-bottom: 30px;
+  padding-bottom: 20px;
 }
-.menu-alcohol-spacing li{
-  padding: 5px;
-  border-bottom: .5px solid #666;
+/* menu-columns */
+.four-column-view {
+  flex-basis: 25%;
 }
 .three-column-view {
   flex-basis: 30%;
 }
-.four-column-view {
-  flex-basis: 25%;
+.menu-alcohol-spacing li {
+  border-bottom: .5px solid #666;
+  margin-bottom: 10px;
 }
-/* About Section */
+/* About Us */
 .about-container {
   display: flex;
   flex-direction: row;
   justify-content: center;
   flex-wrap: wrap;
-  min-height: 500px;
-  padding: 50px;
-  color: #666;
+  padding-top: 40px;
 }
+/* Google iframe */
+.google-map-code iframe {
+  box-shadow: 0 8px 16px -4px;
+  margin-left: -50px;
+}
+/* About Info */
 .about-tessio-section {
-  padding: 50px;
-  margin-top: -20px;
-}
-.about-tessio-section h2 {
-  margin-left: 40px;
-}
-.about-tessio-info {
-  text-align: center;
+  padding: 40px;
+  margin-left: 50px;
+  display: flex;
+  flex-direction: column;
 }
 .about-tessio-info li {
-  padding: 0 0 15px 0;
+  padding: 5px;
+  margin-left: -40px;
 }
-#phone {
-  font-weight: 900;
-  font-size: 27px;
-  margin-top: 10px;
+.bold {
+  font-weight: 600;
 }
+/* About Tessio Links */
 .about-tessio-links li a {
   display: flex;
   flex-direction: row;
   align-items: center;
   color: #666;
-  padding: 5px;
-  font-size: 20px;
-  margin-left: 25px;
+  padding: 3px;
 }
 .about-tessio-links li a span {
   margin-left: 10px;
 }
 .about-tessio-links li a:hover {
   color: #5499C7;
-  /* transition: 1000ms; */
 }
 .icons {
   height: 40px;
-  padding: 0 2px 0 2px;
-}
-.bold {
-  font-weight: 600;
-}
-
-.google-map-code {
-  border: 1px solid #666;
-  width: 602px;
-  height: 452px;
-  box-shadow: 2px 5px 16px 0px #666;
 }
 
 @media(max-width: 1000px) {
   .pimg1, .pimg2, .pimg3 {
       background-attachment: scroll;
   }
-  .breadcrumbs a {
-    font-size: .7em;
-  }
-  .border {
-    font-size: .3em;
-  }
-  .section {
-    text-align: justify;
-  }
-  .section h2 {
-    text-align: center;
+  .ptext {
     font-size: .8em;
   }
-  .section p {
-    font-size: .7em;
+  .section h2 {
+    font-size: 1.2em;
   }
-  .menu-nav {
-    border-bottom: .5px solid #666;
-    margin-bottom: -20px;
-  }
-  .menu-nav li {
-    text-align: center;
-    font-size: .7em;
-    margin: 0 -15px 0 -15px;
-  }
-  .menu-list-container h3 {
-    text-align: center;
-    font-size: 1.1em;
-  }
-  .menu-head {
+  .section {
     font-size: .9em;
   }
-  .google-map-code, .google-map-code iframe {
+  .menu-div {
+    flex-basis: 100%;
+  }
+  .menu-description {
+    padding-top: 6px;
+  }
+  .google-map-code {
     display: none;
-  }
+  } 
   .about-tessio-section {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-left: -40px;
-    margin-bottom: -60px;
-  }
-  .about-tessio-section h2 {
-    width: 460px;
-    margin-bottom: -10px;
+    margin-left: -30px;
   }
   .about-tessio-links {
-    margin-left: 85px;
+    margin-left: -30px;
   }
 }

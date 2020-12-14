@@ -38,7 +38,7 @@ const DiscoverTessio = () => {
                 <ul className="about-tessio-info">
                     <li>2238 NW Bucklin Hill Rd Ste 103</li>
                     <li>Silverdale, WA 98383</li>
-                    <li id="phone">(360) 286-2193</li>
+                    <li className="bold">(360) 286-2193</li>
                 </ul>
                 <ul className="about-tessio-links">
                     <li>
