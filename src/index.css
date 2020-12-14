@@ -117,7 +117,7 @@ li {
   background-color: white;
   border: .5px solid rgb(209, 209, 209);
   max-width: 500px;
-  min-width: 460px;
+  min-width: 440px;
 }
 .menu-head {
   position: absolute;
@@ -234,7 +234,7 @@ li {
   .menu-nav li {
     text-align: center;
     font-size: .7em;
-    margin: 0 -5px 0 -5px;
+    margin: 0 -15px 0 -15px;
   }
   .menu-list-container h3 {
     text-align: center;

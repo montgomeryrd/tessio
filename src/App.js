@@ -2,6 +2,7 @@ import './App.css';
 import 'semantic-ui-css/semantic.min.css';
 
 import Section from './components/Section';
+import Breadcrumbs from './components/Breadcrumbs';
 
 function App() {
 	return (
@@ -29,6 +30,10 @@ function App() {
 					<span className="border">
 						Thank you!
 					</span>
+					<Breadcrumbs 
+						text1 = {'back to menu'}
+						text2 = {'back to contact'}
+					/>
 				</div>
 			</div>
 		</div>
