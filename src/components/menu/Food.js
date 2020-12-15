@@ -6,7 +6,7 @@ const Food = () => {
         return (
             <li key={index}>
                 <p className="menu-item">
-                    {item.item} ${item.price}
+                    {item.item}, ${item.price}
                 </p>
                 <p className="menu-description">
                     {item.description}
@@ -19,7 +19,7 @@ const Food = () => {
         return (
             <li key={index}>
                 <p className="menu-item">
-                    {item.item} ${item.price}
+                    {item.item}, ${item.price}
                 </p>
                 <p className="menu-description">
                     {item.description}
@@ -32,7 +32,7 @@ const Food = () => {
         return (
             <li key={index}>
                 <p className="menu-item">
-                    {item.item} ${item.price}
+                    {item.item}, ${item.price}
                 </p>
                 <p className="menu-description">
                     {item.description}
@@ -45,7 +45,7 @@ const Food = () => {
         return (
             <li key={index}>
                 <p className="menu-item">
-                    {item.item} ${item.price}
+                    {item.item}, ${item.price}
                 </p>
                 <p className="menu-description">
                     {item.description}

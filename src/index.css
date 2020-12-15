@@ -148,17 +148,18 @@ li {
   flex-direction: row;
   justify-content: center;
   flex-wrap: wrap;
-  padding-top: 40px;
+  padding-top: 20px;
+  margin-left: -20px;
 }
 /* Google iframe */
 .google-map-code iframe {
+  margin-top: 20px;
   box-shadow: 0 8px 16px -4px;
   margin-left: -50px;
 }
 /* About Info */
 .about-tessio-section {
-  padding: 40px;
-  margin-left: 50px;
+  padding: 20px;
   display: flex;
   flex-direction: column;
 }
@@ -187,6 +188,25 @@ li {
   height: 40px;
 }
 
+@media(max-width: 1500px) {
+  .menu-div {
+    flex-basis: 50%;
+  }
+}
+
+@media(max-width: 1000px) {
+  .menu-div {
+    flex-basis: 100%;
+  }
+  .google-map-code {
+    flex-basis: 100%;
+  }
+  .about-tessio-section {
+    flex-basis: 50%;
+  }
+
+}
+
 @media(max-width: 600px) {
   .pimg1, .pimg2, .pimg3 {
       background-attachment: scroll;
@@ -198,19 +218,21 @@ li {
     font-size: 1.2em;
   }
   .section {
+    margin: 0 -60px 0 -60px;
     font-size: .9em;
   }
   .menu-nav {
-    margin: 0 -60px 10px -60px;
     font-size: .8em;
   }
   .menu-container {
     position: relative;
-    margin: 0 -60px 0 -60px;;
     padding-top: 10px;
   }
   .menu-div {
     flex-basis: 100%;
+  }
+  .menu-div ul li {
+    margin: 0 10px 0 -30px;
   }
   .menu-description {
     padding-top: 6px;
@@ -222,7 +244,8 @@ li {
     display: none;
   } 
   .about-tessio-section {
-    margin: 0 -60px 0 -60px;
+    margin: 0 -10px 0 -10px;
+    flex-wrap: wrap;
   }
   .about-tessio-links {
     margin-left: -30px;
