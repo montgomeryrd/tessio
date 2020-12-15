@@ -6,7 +6,7 @@ const Liquors = () => {
         return (
             <li key={index}>
                 <p className="menu-item">
-                    {item.item} ${item.price}
+                    {item.item}, ${item.price}
                 </p>
             </li>
         )
@@ -16,7 +16,7 @@ const Liquors = () => {
         return (
             <li key={index}>
                 <p className="menu-item">
-                    {item.item} ${item.price}
+                    {item.item}, ${item.price}
                 </p>
             </li>
         )
@@ -26,7 +26,7 @@ const Liquors = () => {
         return (
             <li key={index}>
                 <p className="menu-item">
-                    {item.item} ${item.price}
+                    {item.item}, ${item.price}
                 </p>
             </li>
         )
@@ -36,7 +36,7 @@ const Liquors = () => {
         return (
             <li key={index}>
                 <p className="menu-item">
-                    {item.item} ${item.price}
+                    {item.item}, ${item.price}
                 </p>
             </li>
         )
@@ -46,7 +46,7 @@ const Liquors = () => {
         return (
             <li key={index}>
                 <p className="menu-item">
-                    {item.item} ${item.price}
+                    {item.item}, ${item.price}
                 </p>
             </li>
         )
@@ -56,7 +56,7 @@ const Liquors = () => {
         return (
             <li key={index}>
                 <p className="menu-item">
-                    {item.item} ${item.price}
+                    {item.item}, ${item.price}
                 </p>
             </li>
         )
@@ -66,7 +66,7 @@ const Liquors = () => {
         return (
             <li key={index}>
                 <p className="menu-item">
-                    {item.item} ${item.price}
+                    {item.item}, ${item.price}
                 </p>
             </li>
         )
@@ -76,7 +76,7 @@ const Liquors = () => {
         return (
             <li key={index}>
                 <p className="menu-item">
-                    {item.item} ${item.price}
+                    {item.item}, ${item.price}
                 </p>
             </li>
         )
@@ -86,7 +86,7 @@ const Liquors = () => {
         return (
             <li key={index}>
                 <p className="menu-item">
-                    {item.item} ${item.price}
+                    {item.item}, ${item.price}
                 </p>
                 <p className="menu-description">
                     {item.description}
