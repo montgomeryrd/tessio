@@ -646,7 +646,7 @@ export const rye = [
 
 export const malt = [
     {
-        item: "aberlour ",
+        item: "aberlour",
         price: "9"
     },
     {
@@ -654,7 +654,7 @@ export const malt = [
         price: "16"
     },
     {
-        item: "auchentoshan ",
+        item: "auchentoshan",
         price: "13"
     },
     {
@@ -678,11 +678,11 @@ export const malt = [
         price: "22"
     },
     {
-        item: "bruichladdich ",
+        item: "bruichladdich",
         price: "16"
     },
     {
-        item: "cragganmore ",
+        item: "cragganmore",
         price: "22"
     },
     {
@@ -710,11 +710,11 @@ export const malt = [
         price: "9"
     },
     {
-        item: "glenkinchie ",
+        item: "glenkinchie",
         price: "18"
     },
     {
-        item: "glenlivet ",
+        item: "glenlivet",
         price: "12"
     },
     {
@@ -722,7 +722,7 @@ export const malt = [
         price: "20"
     },
     {
-        item: "glenmorangie ",
+        item: "glenmorangie",
         price: "12"
     },
     {
@@ -762,15 +762,15 @@ export const malt = [
         price: "49"
     },
     {
-        item: "mccarthy’s ",
+        item: "mccarthy’s",
         price: "15"
     },
     {
-        item: "oban ",
+        item: "oban",
         price: "32"
     },
     {
-        item: "octomore ",
+        item: "octomore",
         price: "45"
     },
     {
@@ -786,7 +786,7 @@ export const malt = [
         price: "12"
     },
     {
-        item: "talisker ",
+        item: "talisker",
         price: "24"
     },
     {
