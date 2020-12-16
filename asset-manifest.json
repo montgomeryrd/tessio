@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/tessio/static/css/main.cf861135.chunk.css",
+    "main.css": "/tessio/static/css/main.cc866951.chunk.css",
     "main.js": "/tessio/static/js/main.01241684.chunk.js",
     "main.js.map": "/tessio/static/js/main.01241684.chunk.js.map",
     "runtime-main.js": "/tessio/static/js/runtime-main.214cd0e7.js",
@@ -10,7 +10,7 @@
     "static/js/2.d0d828f2.chunk.js.map": "/tessio/static/js/2.d0d828f2.chunk.js.map",
     "index.html": "/tessio/index.html",
     "static/css/2.baf75f84.chunk.css.map": "/tessio/static/css/2.baf75f84.chunk.css.map",
-    "static/css/main.cf861135.chunk.css.map": "/tessio/static/css/main.cf861135.chunk.css.map",
+    "static/css/main.cc866951.chunk.css.map": "/tessio/static/css/main.cc866951.chunk.css.map",
     "static/js/2.d0d828f2.chunk.js.LICENSE.txt": "/tessio/static/js/2.d0d828f2.chunk.js.LICENSE.txt",
     "static/media/index.css": "/tessio/static/media/top.152b582d.jpg",
     "static/media/semantic.min.css": "/tessio/static/media/outline-icons.ddae9b1b.woff",
@@ -20,7 +20,7 @@
     "static/js/runtime-main.214cd0e7.js",
     "static/css/2.baf75f84.chunk.css",
     "static/js/2.d0d828f2.chunk.js",
-    "static/css/main.cf861135.chunk.css",
+    "static/css/main.cc866951.chunk.css",
     "static/js/main.01241684.chunk.js"
   ]
 }
