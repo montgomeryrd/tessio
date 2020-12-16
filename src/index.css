@@ -8,7 +8,7 @@ html, body {
   color: #666;
   /* overflow: auto; */
 }
-body::-webkit-scrollbar {
+/* body::-webkit-scrollbar {
   width: 0.7em;
   background: #888;
 }
@@ -19,7 +19,7 @@ body::-webkit-scrollbar-thumb {
 body::-webkit-scrollbar-track-piece
 {
    display:none;
-}
+} */
 .pimg1, .pimg2, .pimg3 {
   position: relative;
   opacity: 0.70;
@@ -143,25 +143,24 @@ li {
   margin-bottom: 10px;
 }
 /* About Us */
+/* Google iframe */
+.google-map-code iframe {
+  box-shadow: 0 8px 16px -4px;
+  margin: 30px 0 60px -50px;
+  width: 80vw;
+}
 .about-container {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  flex-wrap: wrap;
-  padding-top: 20px;
-  margin-left: -20px;
-}
-/* Google iframe */
-.google-map-code iframe {
-  margin-top: 30px;
-  box-shadow: 0 8px 16px -4px;
-  margin-left: -50px;
-}
-/* About Info */
-.about-tessio-section {
   padding: 30px;
+  /* flex-wrap: wrap; */
+}
+.about-tessio-section {
   display: flex;
   flex-direction: column;
+  width: 450px;
+  margin-left: -50px;
 }
 .about-tessio-info li {
   padding: 5px;
@@ -172,11 +171,13 @@ li {
 }
 /* About Tessio Links */
 .about-tessio-links li a {
+  margin: -30px 0 30px 40px;
   display: flex;
   flex-direction: row;
   align-items: center;
   color: #666;
   padding: 3px;
+  width: 80%;
 }
 .about-tessio-links li a span {
   margin-left: 10px;
@@ -188,7 +189,7 @@ li {
   height: 40px;
 }
 
-@media(max-width: 1500px) {
+@media(max-width:1500px) {
   .menu-div {
     flex-basis: 50%;
   }
@@ -201,10 +202,16 @@ li {
   .google-map-code {
     flex-basis: 100%;
   }
-  .about-tessio-section {
-    flex-basis: 50%;
+  .about-container {
+    flex-wrap: wrap;
+    margin: 0 -50px -40px -50px;
   }
-
+  .about-tessio-section {
+    margin: 0 0 30px 0;
+  }
+  .about-tessio-links li a {
+    margin-left: 70px;
+  }
 }
 
 @media(max-width: 600px) {
@@ -212,21 +219,21 @@ li {
       background-attachment: scroll;
   }
   .ptext {
-    font-size: .8em;
+    font-size: .8rem;
   }
   .section h2 {
-    font-size: 1.2em;
+    font-size: 1rem;
   }
   .section {
     margin: 0 -60px 0 -60px;
-    font-size: .9em;
-  }
-  .menu-nav {
-    font-size: .8em;
+    font-size: .9rem;
   }
   .menu-container {
     position: relative;
     padding-top: 10px;
+  }
+  .menu-nav {
+    font-size: .7rem;
   }
   .menu-div {
     flex-basis: 100%;
@@ -245,9 +252,11 @@ li {
   } 
   .about-tessio-section {
     flex-basis: 100%;
-    margin: 0 -10px 0 -10px;
+    align-items: center;
+    margin: 0 -10px 30px -10px;
   }
   .about-tessio-links li a {
-    margin-left: 10px;
+    font-size: .8rem;
+    margin: 0 100px 0 60px;
   }
 }
