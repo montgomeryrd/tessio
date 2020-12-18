@@ -222,7 +222,7 @@ li {
     font-size: 1.2em;
   }
   .ptext {
-    font-size: .8em;
+    font-size: .7em;
   }
   .section {
     font-size: .8em;
@@ -233,6 +233,9 @@ li {
   /* Menu Items */
   .menu-list-container {
     margin: 0 -70px 0 -70px;
+  }
+  .menu-nav {
+    font-size: .8em;
   }
   .menu-div ul {
     margin: 0 60px 0 30px;
@@ -270,6 +273,5 @@ li {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
   }
 }
