@@ -224,6 +224,9 @@ li {
   .ptext {
     font-size: .7em;
   }
+  .breadcrumbs a {
+    font-size: 1.5em;
+  }
   .section {
     font-size: .8em;
   }
@@ -255,7 +258,7 @@ li {
     display: none;
   }
   .about-container {
-    margin: 40px -70px 0 -70px;
+    margin: 70px -70px 0 -70px;
     display: flex;
     flex-direction: column;
     justify-content: center;
