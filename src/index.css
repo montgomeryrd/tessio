@@ -157,6 +157,9 @@ li {
   justify-content: center;
   margin-top: 40px;
 }
+.about-tessio-section {
+  padding: 40px;
+}
 .about-tessio-section h2 {
   margin-left: 40px;
 }
@@ -185,6 +188,18 @@ li {
 }
 .icons {
   height: 40px;
+}
+
+@media(max-width: 2000px) {
+  .about-tessio-section {
+    padding: 10px;
+  }
+}
+
+@media(max-width: 1700px) {
+  .about-tessio-section {
+    padding: 0px;
+  }
 }
 
 @media(max-width: 1500px) {
