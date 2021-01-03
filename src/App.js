@@ -1,6 +1,3 @@
-import './App.css';
-import 'semantic-ui-css/semantic.min.css';
-
 import Section from './components/Section';
 import Breadcrumbs from './components/Breadcrumbs';
 

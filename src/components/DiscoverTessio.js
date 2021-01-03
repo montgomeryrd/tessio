@@ -8,7 +8,7 @@ import map from '../assets/gmaps-icon.png';
 const DiscoverTessio = () => {
     return (
         <div>
-            <div className="google-map-code">
+            <section className="google-map-code">
                 <iframe 
                     title="tessio-location" 
                     src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d2687.6821136466483!2d-122.68335774813745!3d47.65174387908548!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x54903aeb63528bf3%3A0x6bd3e6d3ce9cfb14!2sTessio%2C%202238%20NW%20Bucklin%20Hill%20Rd%20%23103%2C%20Silverdale%2C%20WA%2098383!3m2!1d47.6517439!2d-122.6811637!5e0!3m2!1sen!2sus!4v1607803939489!5m2!1sen!2sus"
@@ -17,11 +17,11 @@ const DiscoverTessio = () => {
                     aria-hidden="false" 
                 >
                 </iframe>
-            </div>
+            </section>
             
-            <div className="about-container">
+            <main className="about-container">
 
-                <div className="about-tessio-section">
+                <section className="about-tessio-section">
                     <h2>TESSIO'S HOURS</h2>
                     <ul className="about-tessio-info">
                         <li>Sunday through Thursday</li>
@@ -29,18 +29,18 @@ const DiscoverTessio = () => {
                         <li>Friday and Saturday</li>
                         <li className="bold">4pm ➛ 9pm</li>
                     </ul>
-                </div>
+                </section>
 
-                <div className="about-tessio-section">
+                <section className="about-tessio-section">
                     <h2>CONTACT US</h2>
                     <ul className="about-tessio-info">
                         <li>2238 NW Bucklin Hill Rd Ste 103</li>
                         <li>Silverdale, WA 98383</li>
                         <li className="bold">(360) 286-2193</li>
                     </ul>
-                </div>
+                </section>
                 
-                <div className="about-tessio-section">
+                <section className="about-tessio-section">
                     <ul className="about-tessio-links">
                         <li>
                             <a href="https://www.facebook.com/Pizza.Beer.Whiskey/" target="_blank" rel="noreferrer">
@@ -63,8 +63,8 @@ const DiscoverTessio = () => {
                             </a>
                         </li>
                     </ul>    
-                </div>
-            </div>
+                </section>
+            </main>
         </div>
     )
 }
