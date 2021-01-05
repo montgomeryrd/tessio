@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/tessio/static/css/main.03e2960b.chunk.css",
-    "main.js": "/tessio/static/js/main.0ae7c21a.chunk.js",
-    "main.js.map": "/tessio/static/js/main.0ae7c21a.chunk.js.map",
+    "main.css": "/tessio/static/css/main.b8d00936.chunk.css",
+    "main.js": "/tessio/static/js/main.4bb3bddf.chunk.js",
+    "main.js.map": "/tessio/static/js/main.4bb3bddf.chunk.js.map",
     "runtime-main.js": "/tessio/static/js/runtime-main.214cd0e7.js",
     "runtime-main.js.map": "/tessio/static/js/runtime-main.214cd0e7.js.map",
     "static/js/2.fb440db1.chunk.js": "/tessio/static/js/2.fb440db1.chunk.js",
     "static/js/2.fb440db1.chunk.js.map": "/tessio/static/js/2.fb440db1.chunk.js.map",
     "index.html": "/tessio/index.html",
-    "static/css/main.03e2960b.chunk.css.map": "/tessio/static/css/main.03e2960b.chunk.css.map",
+    "static/css/main.b8d00936.chunk.css.map": "/tessio/static/css/main.b8d00936.chunk.css.map",
     "static/js/2.fb440db1.chunk.js.LICENSE.txt": "/tessio/static/js/2.fb440db1.chunk.js.LICENSE.txt",
     "static/media/index.css": "/tessio/static/media/top.152b582d.jpg",
     "static/media/gmaps-icon.9e39d6e8.png": "/tessio/static/media/gmaps-icon.9e39d6e8.png"
@@ -16,7 +16,7 @@
   "entrypoints": [
     "static/js/runtime-main.214cd0e7.js",
     "static/js/2.fb440db1.chunk.js",
-    "static/css/main.03e2960b.chunk.css",
-    "static/js/main.0ae7c21a.chunk.js"
+    "static/css/main.b8d00936.chunk.css",
+    "static/js/main.4bb3bddf.chunk.js"
   ]
 }
