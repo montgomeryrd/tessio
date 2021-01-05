@@ -125,16 +125,12 @@ li {
   margin-top: -20px;
   padding-bottom: 20px;
 }
-/* menu-columns */
-.four-column-view {
-  flex-basis: 25%;
-}
-.three-column-view {
-  flex-basis: 30%;
-}
-.menu-alcohol-spacing li {
+.menu-alcohol-spacing li p {
+  padding-bottom: 3px;
   border-bottom: .5px solid #666;
-  margin-bottom: 10px;
+}
+.four-column-view {
+  max-width: 550px;
 }
 /* About Us */
 /* Google iframe */
